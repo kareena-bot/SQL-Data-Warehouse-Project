@@ -40,6 +40,28 @@ Build a data warehouse using SQL Server to consolidate sales data for reporting 
 - Scope: Latest dataset only (no historization)
 - Documentation: Clear data model for stakeholders
 
+###
+🛡️ License
+
+This project is licensed under the MIT License.
+
+You are free to use, modify, and share this project with proper attribution.
+
+🌟 About Me
+
+Hi there! I'm Caren Chepng'eno Rutto (Kareena) 👋
+
+I am an aspiring Data Analyst / Data Engineer passionate about building real-world data projects that turn raw data into meaningful insights.
+
+I enjoy:
+
+SQL & data analysis
+Data engineering & pipelines
+Building portfolio projects
+Learning analytics tools and technologies
+
+This project represents my journey into modern data engineering and analytics.
+
 ---
 
 ## 📁 Repository Structure
