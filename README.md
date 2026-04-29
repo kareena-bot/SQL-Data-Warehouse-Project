@@ -66,3 +66,7 @@ data-warehouse-project/
 ├── .gitignore                          # Files and directories ignored by Git
 └── requirements.txt                    # Dependencies and requirements
 
+## 🛡️ License
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
+## 🌟 About Me
+Hi there! I'm Caren Chepng'eno Rutto, also known as Kareena. I’m a Data Analyst, eager to learn, create, build, and share real-world projects.
