@@ -1,72 +1,69 @@
-# SQL-Data-Warehouse-Project
-Welcome to my 'SQL-Data-Warehouse-Project' Repository.
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. It highlights industry best practices in data engineering and analytics.
+# 🏗️ Data Warehouse Project (Medallion Architecture)
 
-## 📖 Project Overview
-This project involves:
-1. Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-2. ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
-3. Data Modeling: Developing fact and dimension tables optimized for analytical queries.
-4. Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
+---
 
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
-  - SQL Development
-  - Data Architect
-  - Data Engineering
-  - ETL Pipeline Developer
-  - Data Modeling
-  - Data Analytics
+## 📌 Project Overview
+
+This project demonstrates the design and implementation of a modern data warehouse using **Medallion Architecture (Bronze, Silver, Gold layers)**.
+
+It consolidates ERP and CRM data into a structured model for analytics and reporting.
+
+Key focus areas:
+- Data Engineering
+- ETL Pipelines
+- Data Modeling
+- SQL Analytics
+
+---
+
+## 📊 Analytics & Reporting
+
+SQL-based analytics were developed to generate insights on:
+
+- Customer Behavior
+- Product Performance
+- Sales Trends
+
+These insights support business decision-making and performance tracking.
+
+---
 
 ## 🚀 Project Requirements
-Building the Data Warehouse (Data Engineering)
-Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-Specifications
-Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
-• Data Quality: Cleanse and resolve data quality issues before analysis.
-• Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
-• Scope: Focus on the latest dataset only; historization of data is not required.
-• Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
-## BI: Analytics & Reporting (Data Analysis)
-Objective
-Develop SQL-based analytics to deliver detailed insights into:
-• ** Customer Behavior
-• ** Product Performance
-• ** Sales Trends
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
-For more details, refer to docs/requirements.md.
+### Data Engineering Objective
+Build a data warehouse using SQL Server to consolidate sales data for reporting and analysis.
 
-## Repository Structure
+### Specifications:
+- Data Sources: ERP & CRM CSV files
+- Data Cleaning: Remove inconsistencies and errors
+- Integration: Unified analytical data model
+- Scope: Latest dataset only (no historization)
+- Documentation: Clear data model for stakeholders
+
+---
 
 ## 📁 Repository Structure
 
 ```text
 data-warehouse-project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── datasets/              # Raw ERP & CRM data
+├── docs/                  # Architecture & documentation
+│   ├── etl.drawio
+│   ├── data_architecture.drawio
+│   ├── data_flow.drawio
+│   ├── data_models.drawio
+│   ├── data_catalog.md
+│   └── naming-conventions.md
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file showing ETL techniques and methods
-│   ├── data_architecture.drawio        # Draw.io file showing the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, field descriptions, and metadata
-│   ├── data_flow.drawio                # Data flow diagram
-│   ├── data_models.drawio             # Data models (star schema)
-│   └── naming-conventions.md          # Naming guidelines for tables, columns, and files
+├── scripts/              # SQL scripts
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   └── gold/                           # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and data quality checks
-│
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information
-├── .gitignore                          # Files and directories ignored by Git
-└── requirements.txt                    # Dependencies and requirements
+├── tests/                # Data validation scripts
+├── README.md
+├── LICENSE
+├── .gitignore
+└── requirements.txt
 
-## 🛡️ License
-This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
-## 🌟 About Me
-Hi there! I'm Caren Chepng'eno Rutto, also known as Kareena. I’m a Data Analyst, eager to learn, create, build, and share real-world projects.
