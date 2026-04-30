@@ -1,7 +1,7 @@
 /* 
-================================================================================================
+==============================================================================================
 Create Database and Schemas
-================================================================================================
+==============================================================================================
 
 Script Purpose:
 	The following script creates a database called DataWareHouse. 
@@ -11,7 +11,8 @@ Script Purpose:
 
 WARNING:
 	Running this scrip will delete the entire 'Datawarehouse" database if it exists. 
-	Proceed with caution and make sure you have backups before running the script
+	Proceed with caution and make sure you have backups before running the script.
+==============================================================================================
 */
 
 USE Master;
