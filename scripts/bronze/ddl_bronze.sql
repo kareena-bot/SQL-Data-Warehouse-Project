@@ -9,6 +9,7 @@ The tables include:  crm_cust_info, crm_prd_info, crm_sales_details, erp_cust_az
 Run this script before executing the load_broanze stored procedure to ensure the tables are in place for data loading.
 ============================================================================================================================
 */
+
 IF OBJECT_ID ('bronze.crm_cust_info', 'U') IS NOT NULL
 DROP TABLE bronze.crm_cust_info;
 GO
