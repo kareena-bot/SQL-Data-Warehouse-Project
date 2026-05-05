@@ -137,11 +137,11 @@ DECLARE @start_time DATETIME, @end_time DATETIME, @batch_start_time DATETIME, @b
 				   THEN ABS(sls_price) *sls_quantity
 				   ELSE sls_sales
 			END AS sls_sales,
+					sls_quantity
 			CASE WHEN sls_price IS NULL OR sls_price <=0 
 				  THEN sls_sales/NULLIF(sls_quantity,0)
 				  ELSE sls_price
 			END AS sls_price,
-			sls_quantity
 		FROM bronze.crm_sales_details;
 	
 		SET @end_time = GETDATE();
