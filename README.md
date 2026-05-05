@@ -61,6 +61,27 @@ Building portfolio projects
 Learning analytics tools and technologies
 
 This project represents my journey into modern data engineering and analytics.
+Social Media 
+www.linkedin.com/in/caren-rutto-21899751
+
+## 🏗️ Data Architecture Overview
+
+This project follows a **modern layered data architecture** designed to transform raw data into analytics-ready insights.  
+The architecture is structured into three main layers: **Bronze, Silver, and Gold**.
+
+---
+
+## 📊 Architecture Diagram
+> The diagram below illustrates the flow of data across layers.
+
+![Data Architecture](diagrams/data_architecture.png)
+
+---
+
+## 🔄 Data Flow
+
+```text
+Source Systems → Bronze → Silver → Gold → BI / Analytics
 
 ---
 
@@ -88,4 +109,5 @@ data-warehouse-project/
 ├── LICENSE
 ├── .gitignore
 └── requirements.txt
+
 
