@@ -49,7 +49,6 @@ The architecture is structured into three main layers: **Bronze, Silver, and Gol
 
 ### 📊 Architecture Diagram
 > The diagram below illustrates the flow of data across layers.
-
 ## 🏗️ Data Architecture
 
 ![Data Architecture](documents/data_architecture.png)
