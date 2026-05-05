@@ -57,7 +57,8 @@ Data is ingested from source systems into the Bronze layer
 Cleaned and standardized in the Silver layer
 Modeled into a star schema in the Gold layer
 Consumed by BI tools for reporting and analysis
-🥉 Bronze Layer (Raw Data)
+
+###🥉 Bronze Layer (Raw Data)
 Purpose:
 
 Stores raw, unprocessed data exactly as received from source systems.
@@ -70,7 +71,7 @@ Example:
 CRM customer data
 Product source data
 Raw sales transactions
-🥈 Silver Layer (Cleaned & Transformed)
+###🥈 Silver Layer (Cleaned & Transformed)
 Purpose:
 
 Cleans, standardizes, and prepares data for modeling.
@@ -84,7 +85,7 @@ Example:
 Clean customer table (silver.crm_cust_info)
 Clean product table (silver.crm_prd_info)
 Refined sales data
-🥇 Gold Layer (Business Model)
+###🥇 Gold Layer (Business Model)
 Purpose:
 
 Provides a business-ready data model optimized for analytics.
