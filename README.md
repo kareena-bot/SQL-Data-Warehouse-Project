@@ -51,77 +51,9 @@ The architecture is structured into three main layers: **Bronze, Silver, and Gol
 > The diagram below illustrates the flow of data across layers.
 
 ![Data Architecture](diagrams/data_architecture.png)
+ 
+    <img width="1219" height="847" alt="Datawarehouse achitecture" src="https://github.com/user-attachments/assets/abe7c0c9-ce66-416b-9d3f-6e63005b6ff5" />
 
-
-Data is ingested from source systems into the Bronze layer
-Cleaned and standardized in the Silver layer
-Modeled into a star schema in the Gold layer
-Consumed by BI tools for reporting and analysis
-
-###🥉 Bronze Layer (Raw Data)
-Purpose:
-
-Stores raw, unprocessed data exactly as received from source systems.
-
-Characteristics:
-Minimal or no transformations
-Preserves original structure and data types
-Acts as a historical record (data lineage)
-Example:
-CRM customer data
-Product source data
-Raw sales transactions
-###🥈 Silver Layer (Cleaned & Transformed)
-Purpose:
-
-Cleans, standardizes, and prepares data for modeling.
-
-Transformations:
-Data type casting
-Handling nulls and duplicates
-Standardizing formats (e.g., dates, gender values)
-Joining and enriching datasets
-Example:
-Clean customer table (silver.crm_cust_info)
-Clean product table (silver.crm_prd_info)
-Refined sales data
-###🥇 Gold Layer (Business Model)
-Purpose:
-
-Provides a business-ready data model optimized for analytics.
-
-Design:
-Star schema (Fact + Dimension tables)
-Denormalized dimensions for fast querying
-Tables:
-gold.fact_sales → transactional metrics
-gold.dim_customers → customer attributes
-gold.dim_products → product attributes
-Benefits:
-Simplifies complex queries
-Improves performance for reporting
-Easy for business users to understand
-🔗 Data Modeling Approach
-Uses a star schema design
-Fact table stores:
-Foreign keys
-Measures (e.g., sales_amount, sales_quantity)
-Dimension tables store:
-Descriptive attributes (e.g., gender, country, category)
-⚙️ Key Design Principles
-Separation of concerns across layers
-Use of surrogate keys for consistency
-Consistent naming conventions (snake_case)
-Optimized for read-heavy analytical workloads
-📈 Data Consumption
-
-The Gold layer is designed to be consumed by:
-
-📊 BI tools (Power BI, Tableau)
-📉 Dashboards and reports
-📌 Ad-hoc SQL analysis
-
----
 
 ## 🔄 Data Flow
 
