@@ -54,7 +54,7 @@ Stores customer attributes used for segmentation and analysis.
 | customer_number | string | Business identifier | `CN-00045` |
 | first_name      | string | Customer first name | `John` |
 | last_name       | string | Customer last name | `Doe` |
-| country         | string | Customer country | `USA`, `Canada` |
+| country         | string | Customer country | `Australia`, `United Sates` |
 | gender          | string | Customer gender | `Male`, `Female` |
 | marital_status  | string | Marital status | `Single`, `Married` |
 | birth_date      | date | Date of birth | `1990-06-15` |
