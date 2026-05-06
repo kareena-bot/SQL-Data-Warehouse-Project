@@ -167,4 +167,4 @@ This project represents my journey into modern data engineering and analytics.
 
 ## 🔗 Connect with Me
 
-- 💼 [My LinkedIn Profile](https://www.linkedin.com/in/Caren-Rutto/)
+- 💼 [My LinkedIn Profile](https://www.linkedin.com/in/caren-rutto-21899751/)
