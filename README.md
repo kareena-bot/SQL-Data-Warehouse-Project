@@ -51,7 +51,8 @@ The architecture is structured into three main layers: **Bronze, Silver, and Gol
 > The diagram below illustrates the flow of data across layers.
 ## 🏗️ Data Architecture
 
-![Data Architecture](documents/data_architecture.png)
+docs/data_architecture.png
+![Data Architecture](docs/data_architecture.png)
  
     <img width="1219" height="847" alt="Datawarehouse achitecture" src="https://github.com/user-attachments/assets/abe7c0c9-ce66-416b-9d3f-6e63005b6ff5" />
 
