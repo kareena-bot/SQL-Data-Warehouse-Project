@@ -28,29 +28,6 @@ Build a data warehouse using SQL Server to consolidate sales data for reporting 
 - Scope: Latest dataset only (no historization)
 - Documentation: Clear data model for stakeholders
 
-## 🏗️ DataWareHouse Architecture Overview
-
-This project follows a **modern layered data architecture** designed to transform raw data into analytics-ready insights.  
-The architecture is structured into three main layers: **Bronze, Silver, and Gold**.
-
----
-
-### 📊 Architecture Diagram
-> The diagram below illustrates the flow of data across layers.
-
-![Data Architecture](docs/data_architecture.png)
- 
-    <img width="1219" height="847" alt="Datawarehouse achitecture" src="https://github.com/user-attachments/assets/abe7c0c9-ce66-416b-9d3f-6e63005b6ff5" />
-# 📊 Data Warehouse Project
-
-## 📌 Project Overview
-
-This project demonstrates the design and implementation of a modern data warehouse using a layered architecture (**Bronze → Silver → Gold**).
-
-The goal is to transform raw data into a structured, analytics-ready format that supports reporting and business insights.
-
----
-
 ## 🏗️ Data Architecture
 
 ![Data Architecture](docs/data_architecture.png)
