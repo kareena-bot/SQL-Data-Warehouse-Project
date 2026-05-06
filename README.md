@@ -30,7 +30,7 @@ Build a data warehouse using SQL Server to consolidate sales data for reporting 
 
 ## 🏗️ Data Architecture
 
-![Data Architecture](docs/data_architecture.png)
+![Data Architecture]docs/data_warehouse_archtecture.png()
 
 *Figure: End-to-end data flow from Bronze → Silver → Gold layer*
 
