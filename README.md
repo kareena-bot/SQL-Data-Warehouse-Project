@@ -164,6 +164,7 @@ Hi there! I'm Caren Rutto (Kareena) 👋
 
 I am a Data Analyst with a passion for building real-world data projects that turn raw data into meaningful insights for the business.
 This project represents my journey into modern data engineering and analytics.
+
 ## 🔗 Connect with Me
 
-[LinkedIn](https://www.linkedin.com/in/Caren-Rutto/)
+- 💼 [My LinkedIn Profile](https://www.linkedin.com/in/Caren-Rutto/)
