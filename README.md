@@ -82,7 +82,7 @@ The Gold layer is designed using a **star schema** for analytical querying.
 
 ## ⭐ Star Schema Design
 
-![Star Schema](docs/data_model.png)
+![Star Schema](docs/data_model_diagram.png)
 
 *Figure: Star schema model for sales analytics*
 
@@ -102,22 +102,6 @@ The star schema consists of:
 
 ---
 
-## 📂 Repository Structure
-
-```text
-.
-├── docs/
-│   ├── data_architecture.png
-│   ├── star_schema.png
-│   └── data_catalog.md
-│
-├── sql/
-│   └── gold_layer_views.sql
-│
-└── README.md
-```
-
----
 
 ## 🚀 Key Highlights
 
