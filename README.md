@@ -160,18 +160,10 @@ You are free to use, modify, and share this project with proper attribution.
 
 🌟 About Me
 
-Hi there! I'm Caren Chepng'eno Rutto (Kareena) 👋
+Hi there! I'm Caren Rutto (Kareena) 👋
 
-I am an aspiring Data Analyst / Data Engineer passionate about building real-world data projects that turn raw data into meaningful insights.
-
-I enjoy:
-
-SQL & data analysis
-Data engineering & pipelines
-Building portfolio projects
-Learning analytics tools and technologies
-
+I am a Data Analyst with a passion for building real-world data projects that turn raw data into meaningful insights for the business.
 This project represents my journey into modern data engineering and analytics.
-Social Media 
-www.linkedin.com/in/caren-rutto-21899751
+## 🔗 Connect with Me
 
+[LinkedIn](https://www.linkedin.com/in/Caren-Rutto/)
