@@ -82,7 +82,7 @@ The Gold layer is designed using a **star schema** for analytical querying.
 
 ## ⭐ Star Schema Design
 
-![Star Schema](docs/star_schema.png)
+![Star Schema](docs/data_model.png)
 
 *Figure: Star schema model for sales analytics*
 
@@ -90,14 +90,6 @@ The star schema consists of:
 
 * A central **fact table** (`fact_sales`)
 * Connected **dimension tables** (`dim_customers`, `dim_products`)
-
----
-
-## 📚 Data Catalog
-
-Detailed descriptions of tables and columns in the Gold layer:
-
-👉 [View Data Catalog](docs/data_catalog.md)
 
 ---
 
@@ -145,16 +137,9 @@ Detailed descriptions of tables and columns in the Gold layer:
 ---
 
 
-## 🔄 Data Flow
+## 📁 Repository Structure
 
 ```text
-Source Systems → Bronze → Silver → Gold → BI / Analytics
-
-```text
-Source Systems → Bronze → Silver → Gold → BI / Analytics
-
----
-
 ## 📁 Repository Structure
 
 ```text
