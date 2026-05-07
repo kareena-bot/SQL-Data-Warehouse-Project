@@ -26,7 +26,8 @@ ROW_NUMBER () OVER(ORDER BY ci.cst_id) AS customer_key,
 	ci.cst_firstname	    	AS first_name,
 	ci.cst_lastname		    	AS last_name,
 	cl.cntry			        AS country,
-	CASE WHEN ci.cst_gndr != 'n/a' THEN ci.cst_gndr
+	CASE 
+	WHEN ci.cst_gndr != 'n/a' 	THEN ci.cst_gndr
 		 ELSE COALESCE (ca.gen, 'n/a')
 	END                  	 	AS gender,	
 	ci.cst_marital_status 		AS marital_status,
@@ -55,7 +56,7 @@ po.prd_nm				  	  	AS product_name,
 po.cat_id					    AS category_id,
 pc.cat						    AS category,
 pc.subcat					    AS subcategory,
-pc.maintenance,
+pc.maintenance 					AS maintenance,
 po.prd_cost					  	AS product_cost,
 po.prd_line					  	AS product_line,
 po.prd_start_dt					AS start_date
@@ -75,8 +76,8 @@ GO
 CREATE VIEW gold.fact_sales 	AS
 SELECT 
 sd.sls_ord_num					AS order_number,
-gp.product_key,
-gc.customer_key,
+gp.product_key					AS product_key,
+gc.customer_key					AS customer_key,
 sd.sls_order_dt					AS order_date,
 sd.sls_ship_dt					AS shipping_date,
 sd.sls_due_dt				 	AS due_date,
